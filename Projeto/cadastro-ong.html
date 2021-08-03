@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Cadastro de ONG</title>
+        <link rel="stylesheet" href="css/styles-cadastro-ong.css">
+    </head>
+    <body> 
+        <div id="main-container">
+            <h1> Cadastro ONG</h1>
+            <form id="regiter-form">
+                <div class="full-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="half-box spacing">
+                    <label for="name">Nome da ONG</label>
+                    <input type="text" name="name" id="name" placeholder="Digite o nome da ONG">
+                </div>
+                <div class="half-box">
+                    <label for="cnpj">CNPJ da ONG</label>
+                    <input type="cnpj" name="cnpj" id="cnpj" placeholder="Digite o CNPJ da ONG">
+                </div>
+                <div class="half-box spacing">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+                </div>
+                <div class="half-box">
+                    <label for="passwordconfirmation">Confirme a sua senha</label>
+                    <input type="password" name="passwordconfirmation" id="cnpj" placeholder="Confirme a sua senha">
+                </div>
+                <div class="full-box">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+                </div>
+                <div class="full-box">
+                    <input type="submit" value="registrar" id="btn-submit">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
