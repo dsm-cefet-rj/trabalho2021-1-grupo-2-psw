@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    border: none;
+}
+
+body{
+    
+    margin:0;
+    padding: 0;
+    background-image: url("../img/acariciar-perro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bg-primary-color{
+    background-color: rgb(235, 203, 99);
+}
+
+.bg-secondary-color{
+background-color: #ece8ea;
+}
+
+.bg-dark-color{
+    background-color: #050505;
+}
+
+.primary-color{
+    color: #050505;
+}
+
+
+.secondary-color{
+    color: #7a7a7a;
+}
+
+.third-color{
+    color: #ffffff;
+}
+
+/* navbar */
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover{
+    color:#7a7a7a
+}
+
+
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em;
+}
+
+/* footer */
+#footer{
+    border-bottom: 1px solid #7a7a7a;
+    height: 65px;
+}
+
+#footer a:hover{
+    color:#7a7a7a
+}
+
+
+.footer-brand span{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: -10em;
+}
+
+.footer-brand2 span{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 22em;
+    text-align: center;
+}
+
+#footer-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer-items .nav-item{
+    margin: 0 1em;
+}
+
+/* card */
+
+.card{
+    width: 16rem;
+    margin-top: 8em;
+    margin-left: 8em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    border-color: rgb(80, 80, 80);
+}
+
+/* responsive */
+
+.table-responsive-stack tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  
+  .table-responsive-stack td,
+  .table-responsive-stack th {
+     display:block;
+  /*      
+     flex-grow | flex-shrink | flex-basis   */
+     -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  }
+  
+  .table-responsive-stack .table-responsive-stack-thead {
+     font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+     .table-responsive-stack tr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        border-bottom: 3px solid #ccc;
+        display:block;
+        
+     }
+     /*  IE9 FIX   */
+     .table-responsive-stack td {
+        float: left\9;
+        width:100%;
+     }
+  }
