@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> AdotPet </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Grupo 2">
+        <meta name="description" content="Suporte para adoção de animais">
+        <meta name="keywords" content="adoção, cachorro">
+
+            <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+            <div id="CadastroPet">
+                <h1> Cadastro Pet</h1>
+                <form action="#" method="POST">
+
+                        <label for="animal">Nome do animal </label>
+                        <input type="text" id="animal" name="animal" placeholder="Digite o nome do animal" autocomplete="off">
+
+                        <label for="idade"> Idade do animal </label>
+                        <input type="text" id="idade" name="idade" min="0" max="25" placeholder="Digite a idade do animal" autocomplete="off" >
+
+                        <label for="historia">Historia do animal </label>
+                        <input type="text" id="historia" name="historia">
+
+                        <label for="fotoPet"> Foto do animal</label>
+                        <input type="file" id="fotoPet" name="fotoPet">
+                        
+                        <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+    </body>
+</html>
