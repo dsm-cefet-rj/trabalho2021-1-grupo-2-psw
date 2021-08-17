@@ -12,7 +12,7 @@ export class Cards extends React.Component{
     render(){
         return(
         <div className="container-fluid  pb-3 ">
-            <div className="row mb-3">
+            <div className="row mb-3"style={{width:'100%'}}>
       
               <div className="col-sm-12 col-md-4 mt-4">
                   <div className="card">

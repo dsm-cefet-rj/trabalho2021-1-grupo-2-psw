@@ -311,55 +311,66 @@ input[type="submit"]{
 
 .two_half, .three_third, .four_quarter, .five_fifth{display:block; width:100%; clear:both;}
 
-/*----------------------------------------------Half Grid-------------------------------------*/
 
-.one_half{width:470px;}
 
-/*----------------------------------------------Third Grid-------------------------------------*/
 
-.one_third{width:300px;}
-.two_third{width:630px;}
+.about-section{
+  background: url(../acariciar-perro.jpg) no-repeat left;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+}
 
-/*----------------------------------------------Quarter Grid-------------------------------------*/
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
 
-.one_quarter{width:225px;}
-.two_quarter{width:470px;}
-.three_quarter{width:715px;}
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
 
-/*----------------------------------------------Fifth Grid-------------------------------------*/
+.text{
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
 
-.one_fifth{width:176px;}
-.two_fifth{width:372px;}
-.three_fifth{width:568px;}
-.four_fifth{width:764px;}
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
 
-#about-us{display:block; width:100%; line-height:1.6em;}
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
 
-#about-us #about-intro{margin-bottom:0;}
-#about-us #about-intro .panorama{margin-bottom:20px;}
-#about-us #about-intro .panorama .imgholder{}
-#about-us #about-intro blockquote{position:relative; margin:0; padding:0;}
-#about-us #about-intro blockquote p{margin:0; padding:0 0 0 60px; font-size:16px; font-style:italic; line-height:1.6em;}
-#about-us #about-intro blockquote p span{position:absolute; top:0; left:0; font-size:120px; line-height:.8em;}
-#about-us #about-intro h2{}
-#about-us #about-intro p{}
-#about-us #about-intro p:first-child{}
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
 
-#about-us #skillset{margin-bottom:0;}
-#about-us #skillset li{margin-top:8px;}
-#about-us #skillset li:first-child{margin-top:0;}
-
-#about-us #team{margin-bottom:0;}
-#about-us #team ul{margin:0; padding:0; list-style:none;}
-#about-us #team ul li{display:inline-block; float:left; width:140px; margin:30px 0 0 20px; padding:0; text-align:center;}
-#about-us #team ul li:first-child,
-#about-us #team ul > li:first-child + li + li,
-#about-us #team ul > li:first-child + li + li + li + li{margin-left:0;}
-#about-us #team ul > li:first-child, #about-us #team ul > li:first-child + li{margin-top:0;}
-#about-us #team ul li .figure{}
-#about-us #team ul li .figure img{padding:4px; border:1px solid #CCCCCC;}
-#about-us #team ul li .figcaption{}
-#about-us #team ul li .figcaption p{margin:5px 0 0 0; padding:0;}
-#about-us #team ul li .figcaption p:first-child{}
-#about-us #team ul li .figure .figcaption .team_name{}
-#about-us #team ul li .figure .figcaption .team_title{margin:0; font-size:11px; line-height:normal;}
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}

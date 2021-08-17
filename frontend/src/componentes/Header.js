@@ -14,7 +14,7 @@ export class Header extends React.Component{
                 <div className="collaspe navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <a href="#" className="nav-link third-color" > Perfil do usuario</a>
+                      <a href="#" className="nav-link third-color" > Quem somos?</a>
                     </li>
                     <li className="nav-item">
                       <a href="#" className="nav-link third-color" > Centro de adoções </a>
