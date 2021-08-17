@@ -1,0 +1,365 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    border: none;
+}
+
+body{
+    
+    margin:0;
+    padding: 0;
+    background-image: url("../acariciar-perro.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.bg-primary-color{
+    background-color: rgb(235, 203, 99);
+}
+
+.bg-secondary-color{
+background-color: #ece8ea;
+}
+
+.bg-dark-color{
+    background-color: yellow;
+}
+
+.primary-color{
+    color: #050505;
+}
+
+
+.secondary-color{
+    color: #7a7a7a;
+}
+
+.third-color{
+    color: #ffffff;
+}
+
+/* navbar */
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav {
+    font-size: large;
+}
+
+/* footer */
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+
+
+.jumbotron {
+    text-align: center;
+    background-color: #db402c;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
+.jumbotron__container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.jumbotron h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.lead {
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.lead btn {
+    font-family: 'Oswald', sans-serif;
+}
+
+.row {
+    
+}
+
+.card {
+    background-color: #dce0d9;
+    border: 1px solid lightblue;
+    display:grid;
+    margin:auto;
+    max-width: fit-content;
+}
+
+.card h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: "Oswald" sans-serif;
+    color: black;
+
+}
+
+.card p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+.card btn {
+    font-size: 2em;
+}
+
+.pt-2 {
+    font-size: 1rem;
+}
+
+body{
+  background-image: url('../acariciar-perro.jpg') ;
+  background-size: cover;
+}
+
+textarea:focus, input :focus{
+  outline: none;
+}
+
+a{
+  font-size: .8rem;
+}
+
+#login-container{
+  background-color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+
+label, input{
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  border-bottom: 2px solid black;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+input:focus{
+  border-bottom: 2px solid #08558b;
+}
+
+
+#forgot-pass{
+  text-align: right;
+  display: block;
+}
+
+
+input[type="submit"]{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #08558b;
+
+}
+
+#social-container, #social-container p {
+  margin-bottom: 20px;
+}
+
+#social-container i {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.fa-facebook-f{
+  background-color: #3b5998;
+}
+
+
+.one_half, 
+.one_third, .two_third, 
+.one_quarter, .two_quarter, .three_quarter, 
+.one_fifth, .two_fifth, .three_fifth, .four_fifth{display:inline-block; float:left; margin:0 0 0 20px; list-style:none;}
+
+.one_third, .two_third{margin:0 0 0 30px;}
+
+.first, 
+.one_half:first-child, 
+.one_third:first-child, .two_third:first-child, 
+.one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child, 
+.one_fifth:first-child, .two_fifth:first-child, .three_fifth:first-child, .four_fifth:first-child{margin-left:0;}
+
+.two_half, .three_third, .four_quarter, .five_fifth{display:block; width:100%; clear:both;}
+
+/*----------------------------------------------Half Grid-------------------------------------*/
+
+.one_half{width:470px;}
+
+/*----------------------------------------------Third Grid-------------------------------------*/
+
+.one_third{width:300px;}
+.two_third{width:630px;}
+
+/*----------------------------------------------Quarter Grid-------------------------------------*/
+
+.one_quarter{width:225px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+
+/*----------------------------------------------Fifth Grid-------------------------------------*/
+
+.one_fifth{width:176px;}
+.two_fifth{width:372px;}
+.three_fifth{width:568px;}
+.four_fifth{width:764px;}
+
+#about-us{display:block; width:100%; line-height:1.6em;}
+
+#about-us #about-intro{margin-bottom:0;}
+#about-us #about-intro .panorama{margin-bottom:20px;}
+#about-us #about-intro .panorama .imgholder{}
+#about-us #about-intro blockquote{position:relative; margin:0; padding:0;}
+#about-us #about-intro blockquote p{margin:0; padding:0 0 0 60px; font-size:16px; font-style:italic; line-height:1.6em;}
+#about-us #about-intro blockquote p span{position:absolute; top:0; left:0; font-size:120px; line-height:.8em;}
+#about-us #about-intro h2{}
+#about-us #about-intro p{}
+#about-us #about-intro p:first-child{}
+
+#about-us #skillset{margin-bottom:0;}
+#about-us #skillset li{margin-top:8px;}
+#about-us #skillset li:first-child{margin-top:0;}
+
+#about-us #team{margin-bottom:0;}
+#about-us #team ul{margin:0; padding:0; list-style:none;}
+#about-us #team ul li{display:inline-block; float:left; width:140px; margin:30px 0 0 20px; padding:0; text-align:center;}
+#about-us #team ul li:first-child,
+#about-us #team ul > li:first-child + li + li,
+#about-us #team ul > li:first-child + li + li + li + li{margin-left:0;}
+#about-us #team ul > li:first-child, #about-us #team ul > li:first-child + li{margin-top:0;}
+#about-us #team ul li .figure{}
+#about-us #team ul li .figure img{padding:4px; border:1px solid #CCCCCC;}
+#about-us #team ul li .figcaption{}
+#about-us #team ul li .figcaption p{margin:5px 0 0 0; padding:0;}
+#about-us #team ul li .figcaption p:first-child{}
+#about-us #team ul li .figure .figcaption .team_name{}
+#about-us #team ul li .figure .figcaption .team_title{margin:0; font-size:11px; line-height:normal;}
