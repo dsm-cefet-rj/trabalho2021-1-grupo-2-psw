@@ -7,6 +7,7 @@
     font-family: Helvetica, sans-serif;
     color: #323232;
     border: none;
+    text-align: left;
 }
 
 input, label {
@@ -19,12 +20,12 @@ input:focus, label:focus {
 }
 
 a {
-    color: #E60084;
+    color: rgb(235, 203, 99);
 }
 
 body {
     padding-top: 5vh;
-    background-image: url('../img/fundo-mulher-e-cachorro.jpeg');
+    background-image: url('../images/fundo-mulher-e-cachorro.jpeg');
     background-size: cover;
     background-position-y: -150px;
 }
@@ -78,23 +79,29 @@ input {
 }
 
 input:focus {
-    border-color: #E60084;
+    border-color: rgb(235, 203, 99);
 }
 
 input[type="submit"] {
-    background-color: #E60084;
+    background-color: rgb(235, 203, 99);
     color: #FFF;
     border: none;
     border-radius: 20px;
     height: 40px;
     cursor: pointer;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 #agreement {
     margin-right: 5px;
+    display: inline-block;
 }
 
 #agreement, #agreement-label {
     display: inline-block;
     width: auto;
+    margin:0 12px 0 0;
+    vertical-align: bottom;
 }
