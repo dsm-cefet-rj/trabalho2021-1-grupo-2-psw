@@ -1,19 +1,20 @@
-import './App.css';
-import Card from "./components/cardPets";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/style.css'
 
-
+import { Header } from './components/Header';
+import { Cards } from './components/Cards';
+import{Footer} from './components/Footer'
+import {Jumbotron} from './components/Jumbotron'
+import Routes from './routes'
 function App() {
-    return ( 
-            <div className = "App">
-                <div>
-                    <Header/>
-                    <Card/>
-                    <Footer/>
-                </div>
-            </div>
+    return (
+        <div>
+            <Routes/>
+        </div>
+
     );
+
+
 }
 
 export default App;
