@@ -2,6 +2,12 @@ import React from 'react'
 import adocao1 from '../images/adocao1.jpg'
 import adocao3 from '../images/adocao2.jfif'
 import adocao4 from '../images/adocao3.png'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 export class Cards extends React.Component{
     render(){
@@ -15,7 +21,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Zeus</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-primary btn-md">Adote</a>
+                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                     </div>
                 </div>
@@ -26,7 +32,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Lola</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-primary btn-md">Adote</a>
+                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -37,7 +43,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Bilu</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-primary btn-md">Adote</a>
+                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -48,7 +54,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Bolo</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-primary btn-md">Adote</a>
+                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -58,7 +64,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Thor</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-primary btn-md">Adote</a>
+                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -68,7 +74,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Hulk</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-primary btn-md">Adote</a>
+                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>

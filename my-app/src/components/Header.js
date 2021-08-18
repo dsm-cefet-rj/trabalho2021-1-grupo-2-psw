@@ -24,7 +24,7 @@ export class Header extends React.Component{
                       <Link to="/sobre" className="nav-link third-color" > Quem somos?</Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/adotar" className="nav-link third-color" > Centro de adoções </Link>
+                      <Link to="/cadastroOng" className="nav-link third-color" > Cadastrar centro de adoções </Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/" className="nav-link third-color" > Minhas adoções </Link>

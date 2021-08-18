@@ -73,6 +73,10 @@ background-color: #ece8ea;
     font-size:14px;
     margin-bottom:0;
   }
+
+  .footerAdopt {
+    transform: translateY(30%);
+  }
   
   .footer-dark ul a {
     color:inherit;
@@ -174,6 +178,10 @@ background-color: #ece8ea;
     font-family: 'Oswald', sans-serif;
 }
 
+.btnPosit {
+  transform: translateX(65%);
+}
+
 .row {
     
 }
@@ -184,6 +192,11 @@ background-color: #ece8ea;
     display:grid;
     margin:auto;
     max-width: fit-content;
+}
+
+.cardAdopt {
+  transform: translateY(30%);
+  transform: translateX(127%);
 }
 
 .card h3 {
@@ -374,4 +387,93 @@ input[type="submit"]{
   .inner-container{
       padding: 60px;
   }
+}
+
+input, label {
+  display: block;
+  width: 100%;
+}
+
+input:focus, label:focus {
+  outline: none;
+}
+
+a {
+  color: rgb(235, 203, 99);
+}
+
+/* form */
+
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: rgb(235, 203, 99);
+}
+
+input[type="submit"] {
+  background-color: rgb(235, 203, 99);
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#agreement {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#agreement, #agreement-label {
+  display: inline-block;
+  width: auto;
+  margin:0 12px 0 0;
+  vertical-align: bottom;
 }
