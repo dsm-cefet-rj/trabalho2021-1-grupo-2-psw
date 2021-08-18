@@ -19,7 +19,8 @@ export class Card extends React.Component{
                     </div>
                 </div>
             </div>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </div>
         );
-    }
+    };
 }

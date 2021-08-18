@@ -15,7 +15,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Zeus</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-dark btn-md">Adote</a>
+                          <a href="" className="btn btn-primary btn-md">Adote</a>
                       </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Lola</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-dark btn-md">Adote</a>
+                          <a href="" className="btn btn-primary btn-md">Adote</a>
                       </div>
                   </div>
               </div>
@@ -37,7 +37,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Bilu</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-dark btn-md">Adote</a>
+                          <a href="" className="btn btn-primary btn-md">Adote</a>
                       </div>
                   </div>
               </div>
@@ -48,7 +48,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Bolo</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-dark btn-md">Adote</a>
+                          <a href="" className="btn btn-primary btn-md">Adote</a>
                       </div>
                   </div>
               </div>
@@ -58,7 +58,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Thor</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-dark btn-md">Adote</a>
+                          <a href="" className="btn btn-primary btn-md">Adote</a>
                       </div>
                   </div>
               </div>
@@ -68,7 +68,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Hulk</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <a href="" className="btn btn-dark btn-md">Adote</a>
+                          <a href="" className="btn btn-primary btn-md">Adote</a>
                       </div>
                   </div>
               </div>

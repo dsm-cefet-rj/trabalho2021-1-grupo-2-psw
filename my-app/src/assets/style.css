@@ -54,7 +54,7 @@ background-color: #ece8ea;
 /* footer */
 
 .footer-dark {
-    padding:50px 0;
+    padding:15px 0;
     color:#f0f9ff;
     background-color:#282d32;
   }
@@ -146,7 +146,8 @@ background-color: #ece8ea;
 
 .jumbotron {
     text-align: center;
-    background-color: #db402c;
+    background-color: #d37a7a;
+    /*background-image: url("../images/patinhas2.jpg");*/
     /* padding-top: 5px;
     padding-bottom: 5px; */
 }
