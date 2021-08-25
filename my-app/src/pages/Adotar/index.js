@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Header } from '../../components/Header'
 import { Jumbotron } from '../../components/Jumbotron'
 import { Footer } from '../../components/Footer'
@@ -12,17 +12,20 @@ import { deletePet } from '../../PetsSlice';
 function Adotar(){
    
         
-                    const history = useHistory()
-                    let { id } = useParams()
-                    id = parseInt(id)
+            const history = useHistory()
+            let { id } = useParams()
+            id = parseInt(id)
 
-                    const pets = useSelector(state => state.pets)
-                    // const pet = pets.filter(pet=>pet.id === id)[0]
-                    const dispatch = useDispatch();
+            const pets = useSelector(state => state.pets)
+            const pet = pets.filter(pet=>pet.id === id)[0]
+            const dispatch = useDispatch();
+
+
+    
 
 
 
-                    function handleDelete(e){
+                  function handleDelete(e){
 
                         e.preventDefault()
                         dispatch(deletePet(id));
@@ -42,14 +45,14 @@ function Adotar(){
                   <div className="card cardAdopt">
                       <img src={adocao1} alt="Cachorro1" className="card-img-top"/>
                       <div className="card-body">
-                          <h3 className="card-title">Nome: Zeus</h3>
+                          <h3 className="card-title"></h3>
                           <p className="card-text">Idade: 6 meses</p>
                           <p className="card-text">Raça: Vira-Lata</p>
                           <p className="card-text">Vacinação: Em dia</p>
                           <p className="card-text">Características: Alegre, parceiro, carinhoso</p>
                           <Link to="/" class="btn btn-primary btn-lg btnPosit">Contatar Centro</Link>
                           <br></br><br></br>
-                          <button class="btn btn-danger btnPosit" onclick={handleDelete}>Excluir adocao</button>
+                          <button class="btn btn-danger btnPosit" onClick={handleDelete}>Excluir adocao</button>
                       </div>
                     </div>
                 </div>

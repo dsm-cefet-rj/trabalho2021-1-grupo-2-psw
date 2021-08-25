@@ -1,4 +1,4 @@
-import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
+import { createSlice} from '@reduxjs/toolkit';
 
 
 
@@ -14,20 +14,54 @@ const initialPets =[
           location: "Tijuca",
         },
 
+        {
+
+          id:2,
+          name: 'Thor',
+          images: [],
+          description: "Foi resgatado no cefet",
+          status: "disponivel",
+          supplier: "Tribo do Abraço",
+          location: "Tijuca",
+        },
 
 
+        {
+
+          id:3,
+          name: 'Gaya',
+          images: [],
+          description: "Foi resgatado no cefet",
+          status: "disponivel",
+          supplier: "Tribo do Abraço",
+          location: "Tijuca",
+        },
 
 
+        {
+
+          id:4,
+          name: 'Coragem',
+          images: [],
+          description: "Foi resgatado no cefet",
+          status: "disponivel",
+          supplier: "Tribo do Abraço",
+          location: "Tijuca",
+        },
 
 
+        {
 
+          id:5,
+          name: 'Bob',
+          images: [],
+          description: "Foi resgatado no cefet",
+          status: "disponivel",
+          supplier: "Tribo do Abraço",
+          location: "Tijuca",
+        },
 
-
-
-
-
-
-]
+];
 
 function addPetReducer(pets, pet){
     let proxId = 1 + pets.map(pet => pet.id).reduce((x, y) => Math.max(x,y));
