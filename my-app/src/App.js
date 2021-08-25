@@ -1,18 +1,25 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/style.css'
+import React from 'react'
 
-import { Header } from './components/Header';
-import { Cards } from './components/Cards';
-import{Footer} from './components/Footer'
-import {Jumbotron} from './components/Jumbotron'
 import Routes from './routes'
+import {Provider} from 'react-redux'
+
+
+
 function App() {
-    return (
+
+
+
+
+
+
+    return (<>
+
         <div>
             <Routes/>
         </div>
-
-    );
+    </>);
 
 
 }
