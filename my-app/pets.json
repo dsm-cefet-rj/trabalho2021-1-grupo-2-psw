@@ -1,0 +1,5 @@
+{
+      "pet": [{"id":1, "nome" : "Thor", "idade" : "6 anos"},
+        {"id":2, "nome" : "Bilu", "idade" : "6 anos"},
+        {"id":1, "nome" : "Gaya", "idade" : "6 anos"}]
+}

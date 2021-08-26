@@ -1,67 +1,7 @@
-import { createSlice} from '@reduxjs/toolkit';
+import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 
 
-
-const initialPets =[
-        {
-
-          id:1,
-          name: 'Bilu',
-          images: [],
-          description: "Foi resgatado no cefet",
-          status: "disponivel",
-          supplier: "Tribo do Abraço",
-          location: "Tijuca",
-        },
-
-        {
-
-          id:2,
-          name: 'Thor',
-          images: [],
-          description: "Foi resgatado no cefet",
-          status: "disponivel",
-          supplier: "Tribo do Abraço",
-          location: "Tijuca",
-        },
-
-
-        {
-
-          id:3,
-          name: 'Gaya',
-          images: [],
-          description: "Foi resgatado no cefet",
-          status: "disponivel",
-          supplier: "Tribo do Abraço",
-          location: "Tijuca",
-        },
-
-
-        {
-
-          id:4,
-          name: 'Coragem',
-          images: [],
-          description: "Foi resgatado no cefet",
-          status: "disponivel",
-          supplier: "Tribo do Abraço",
-          location: "Tijuca",
-        },
-
-
-        {
-
-          id:5,
-          name: 'Bob',
-          images: [],
-          description: "Foi resgatado no cefet",
-          status: "disponivel",
-          supplier: "Tribo do Abraço",
-          location: "Tijuca",
-        },
-
-];
+const initialPets =[];
 
 function addPetReducer(pets, pet){
     let proxId = 1 + pets.map(pet => pet.id).reduce((x, y) => Math.max(x,y));
@@ -78,7 +18,17 @@ function addPetReducer(pets, pet){
     return pets;
   }
 
+  export const fetchPets = createAsyncThunk('database/fetchPets',
+    async () => {
+        return await (await fetch ('http://localhost:3004/products')).json();
+    }
+  );
   
+  
+  
+  function fullfillPetsReducer(petsState, petsFetched){
+    return petsFetched;
+}
 
   export const petsSlice = createSlice({
         name: "pets",
@@ -88,7 +38,10 @@ function addPetReducer(pets, pet){
            updatePet: (state, action) => updatePetReducer(state, action.payload),
            deletePet: (state, action) => deletePetReducer(state, action.payload)
         },
-    })
+        extraReducers: {
+          [fetchPets.fulfilled]: (state, action) => fullfillPetsReducer(state, action.payload),
+        }
+      })
 
 export const { addPet, updatePet, deletePet } = petsSlice.actions
 export default petsSlice.reducer

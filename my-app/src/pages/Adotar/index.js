@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import ReactDOM from 'react-dom';
 import { Header } from '../../components/Header'
 import { Jumbotron } from '../../components/Jumbotron'
 import { Footer } from '../../components/Footer'
-import adocao1 from '../../images/adocao1.jpg'
 import { Link, useHistory , useParams} from 'react-router-dom';
 import {useSelector, useDispatch} from 'react-redux'
 import { deletePet } from '../../PetsSlice';
+import adocao1 from '../../images/adocao1.jpg'
 
 
 
@@ -43,9 +44,9 @@ function Adotar(){
             <div className="row mb-3 "style={{width:'100%'}}>
               <div className="col-sm-12 col-md-4 mt-4">
                   <div className="card cardAdopt">
-                      <img src={adocao1} alt="Cachorro1" className="card-img-top"/>
+                      <img src={adocao1} alt="Cachorro 1" className="card-img-top"/>
                       <div className="card-body">
-                          <h3 className="card-title"></h3>
+                          <h3 className="card-title"> Thor</h3>
                           <p className="card-text">Idade: 6 meses</p>
                           <p className="card-text">Raça: Vira-Lata</p>
                           <p className="card-text">Vacinação: Em dia</p>
