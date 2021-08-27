@@ -5,15 +5,10 @@ import { fetchPets } from './PetsSlice';
 import Routes from './routes'
 import {Provider} from 'react-redux'
 import {store} from './store'
+import {useState} from 'react'
 
 store.dispatch(fetchPets());
 function App() {
-
-
-
-
-
-
     return (<>
 
             <Provider store={store}>

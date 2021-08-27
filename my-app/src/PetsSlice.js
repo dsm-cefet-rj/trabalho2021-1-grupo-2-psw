@@ -20,7 +20,7 @@ function addPetReducer(pets, pet){
 
   export const fetchPets = createAsyncThunk('database/fetchPets',
     async () => {
-        return await (await fetch ('http://localhost:3004/products')).json();
+        return await (await fetch ('http://localhost:3004/pets')).json();
     }
   );
   

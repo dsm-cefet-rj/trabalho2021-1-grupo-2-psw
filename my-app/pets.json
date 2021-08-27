@@ -1,5 +1,8 @@
 {
-      "pet": [{"id":1, "nome" : "Thor", "idade" : "6 anos"},
-        {"id":2, "nome" : "Bilu", "idade" : "6 anos"},
-        {"id":1, "nome" : "Gaya", "idade" : "6 anos"}]
+      "pets": [{"id":1, "nome" : "Thor", "idade" : "6 anos", "description:" : "Foi encontrado no local x", "raça" : "Vira-lata"},
+        {"id":2, "nome" : "Bilu", "idade" : "6 anos", "description" :"Foi encontrado no local x", "raça" : "Vira-lata"},
+        {"id":3, "nome" : "Gaya", "idade" : "6 anos", "description" :"Foi encontrado no local x", "raça":"Vira-lata"},
+        {"id":4, "nome" : "Thor", "idade" : "6 anos", "description" : "Foi encontrado no local x", "raça" : "Vira-lata"},
+        {"id":5, "nome" : "Thor", "idade" : "6 anos", "description" : "Foi encontrado no local x", "raça" : "Vira-lata"},
+        {"id":6, "nome" : "Thor", "idade" : "6 anos", "description" : "Foi encontrado no local x", "raça" : "Vira-lata"}]
 }

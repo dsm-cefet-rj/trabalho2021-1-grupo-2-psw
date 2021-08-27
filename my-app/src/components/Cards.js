@@ -8,20 +8,18 @@ import {
     Route,
     Link
   } from "react-router-dom";
-
-export class Cards extends React.Component{
-    render(){
+function Cards (props){
         return(
-        <div className="container-fluid  pb-3 ">
+            <div className="container-fluid  pb-3 ">
             <div className="row mb-3"style={{width:'100%'}}>
       
               <div className="col-sm-12 col-md-4 mt-4">
                   <div className="card">
                       <img src={adocao1} alt="Cachorro1" className="card-img-top"/>
                       <div className="card-body">
-                          <h3 className="card-title">Zeus</h3>
+                          <h3 className="card-title">Thor</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
+                          <Link to="/adotar/id:1" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                     </div>
                 </div>
@@ -32,7 +30,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Lola</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
+                          <Link to="/adotar/id:2" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -43,7 +41,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Bilu</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
+                          <Link to="/adotar/id:3" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -54,7 +52,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Bolo</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
+                          <Link to="/adotar/id:4" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -64,7 +62,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Thor</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
+                          <Link to="/adotar/id:5" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -74,7 +72,7 @@ export class Cards extends React.Component{
                       <div className="card-body">
                           <h3 className="card-title">Hulk</h3>
                           <p className="card-text">Cachorro docil com apenas 6 meses.</p>
-                          <Link to="/adotar" className="btn btn-primary btn-md">Adote</Link>
+                          <Link to="/adotar/id:6" className="btn btn-primary btn-md">Adote</Link>
                       </div>
                   </div>
               </div>
@@ -82,5 +80,5 @@ export class Cards extends React.Component{
       
         </div>
         );
-    }
 }
+export default Cards
