@@ -9,7 +9,6 @@ import {Provider} from 'react-redux';
 import { fetchPets } from './PetsSlice';
 
 
-
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
